@@ -1,9 +1,8 @@
 .parent {
   display: flex;
-  background-color: aqua;333333333
-  flex-direction: row;
-  justify-contents: center;	
-  align-items: flex-end;
+  background-color: aqua;
+  justify-content: space-around;
+  align-items: center;
   height: 200px;
 }
 .child {
@@ -13,8 +12,12 @@
   margin-right: 8px;
   border: 1px solid black;
 }
-#child1{
-	flex-basis:  ;
+#child1 {
+  flex-basis: 200px;
 }
-#child2{}
-#child3{}
+#child2 {
+  flex-basis: 300px;
+}
+#child3 {
+  flex-basis: 250px;
+}
